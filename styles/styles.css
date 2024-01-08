@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&family=Merriweather:wght@300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+}
+/* header related style here */
+.container {
+  width: 82%;
+  max-width: 1320;
+  margin: 50px 120px;
+}
+.banner {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner\ Image.png");
+  height: 600px;
+  text-align: center;
+  border-radius: 16px;
+}
+.banner-text {
+  padding-top: 200px;
+}
+.banner-text p {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.banner-text h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+  max-width: 632px;
+  padding-left: 344px;
+}
+/* main related styles here */
+/* offer related styles here */
+.offer {
+  text-align: center;
+  margin-bottom: 120px;
+}
+.offer .offer-percentage {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.offer .offer-caption {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.offer .offer-categories {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.offer .offer-img {
+  width: 657px;
+  height: 410px;
+  margin-left: 398px;
+}
+
+/* party related styles here */
+.party {
+  width: 82%;
+  max-width: 1320;
+  margin: 0px 120px;
+  background-image: url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+}
+.banner-2024 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.party-banner-padding {
+  padding: 150px 0;
+}
+.banner-2024 .party-banner-text h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 7.04px;
+  max-width: 527px;
+  padding-left: 126px;
+}
+.banner-2024 .party-banner-text p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 527px;
+  padding-left: 126px;
+}
+.banner-2024 .party-banner-text .party-button {
+  border-radius: 8px;
+  background: #f00;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 15px 28px;
+}
+.banner-2024 .party-banner-text .party-button:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+}
+.banner-2024 .party-banner-text * {
+  margin-bottom: 24px;
+}
+.banner-2024 .btn {
+  padding: 0 126px;
+}
+img {
+  width: 320px;
+  height: 465px;
+  padding-right: 126px;
+  display: block;
+}
+/* Event and place related styles here */
+.event {
+  text-align: center;
+  margin: 0 120px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 82%;
+  max-width: 1320px;
+  padding: 120px 0px;
+}
+.event h2 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  margin-bottom: 48px;
+}
+
+.event h2 .event-address-date-time {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.event .event-button{
+  border-radius: 8px;
+  background: #f00;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 15px 28px;
+}
+.event .event-button:hover{
+  cursor: pointer;
+  background-color: aquamarine;  
+}
+/* coming soon related styles */
+.coming-soon{
+  
+}
