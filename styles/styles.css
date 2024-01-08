@@ -170,7 +170,7 @@ img {
   line-height: 56px;
   text-transform: capitalize;
 }
-.event .event-button{
+.event .event-button {
   border-radius: 8px;
   background: #f00;
   color: white;
@@ -178,11 +178,82 @@ img {
   font-size: 20px;
   padding: 15px 28px;
 }
-.event .event-button:hover{
+.event .event-button:hover {
   cursor: pointer;
-  background-color: aquamarine;  
+  background-color: aquamarine;
 }
 /* coming soon related styles */
-.coming-soon{
-  
+.coming-soon {
+  display: flex;
+  width: 82%;
+  max-width: 1320px;
+  margin: 0 120px;
+  justify-content: space-around;
+  gap: 50px;
+}
+.coming-soon-new-offer {
+  color: #f00;
+  text-align: left;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding-top: 80px;
+}
+.coming-soon-title {
+  color: #070211;
+  font-family: Merriweather;
+  text-align: left;
+  font-size: 44px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.coming-soon-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  width: 323px;
+}
+.coming-soon-img {
+  border-radius: 298.844px;
+  width: 298.844px;
+  height: 298.844px;
+  padding-left: 22px;
+  display: flex;
+  align-items: center;
+}
+.coming-soon-img-formating {
+  border-radius: 369px;
+  border: 15px solid #f00;
+  width: 369px;
+  height: 369px;
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+}
+.coming-soon-year {
+  color: #f00;
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: 700;
+  padding-top: 90px;
+  margin-bottom: 20px;
+}
+.coming-soon-year-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 226px;
+  margin-bottom: 35px;
+}
+.coming-soon-year-img {
+  width: 115px;
+  height: 115px;
 }
