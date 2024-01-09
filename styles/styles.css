@@ -5,6 +5,8 @@
   padding: 0;
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
+  max-width: 1600px;
+  max-height: 7335px;
 }
 /* header related style here */
 .container {
@@ -82,7 +84,8 @@
   max-width: 1320;
   height: 600px;
   margin: 0px 120px;
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png");
   background-repeat: no-repeat;
 }
 .banner-2024 {
@@ -377,93 +380,74 @@ img {
 #subscribe:hover {
   background: rgb(114, 9, 9);
 }
-/* footer related styles */
 footer {
   background: #070211;
+  width: 100%;
 }
-
-.footer {
-  width: 1320px;
-  justify-content: space-between;
+.row {
   display: flex;
-  align-items: center;
-  margin: auto;
+  justify-content: space-between;
+  padding: 120px 120px 80px 120px;
 }
-
-.footer-address {
+.address {
   color: #fff;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 20px;
+  font-style: normal;
   font-weight: 500;
-  line-height: 40px;
-  margin-top: 120px;
-  margin-bottom: 50px;
-}
+  line-height: 30px;
+  width: 375px;
 
+}
+.contacts {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
 hr {
   background: rgba(255, 255, 255, 0.15);
   width: 1320px;
   height: 1px;
-  margin: auto;
+  margin: 0 100px;
 }
-
 .social-icons {
-  width: 1320px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 640px;
+  padding: 24px 0;
 }
-
-#img-size{
-  cursor: pointer;
-  transition: 0.5s all ease-in-out;
-  width: 64px;
-  height: 64px;
-  padding-right: 10px;
-  margin: 48px auto;
+.img-icon {
+  width: 52px;
+  height: 52px;
+  padding: 18px;
 }
-#img-size:hover {
+.img-icon:hover {
   transform: scale(1.5);
 }
 
-.footer-right {
-  color: #fff;
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 26px;
-  margin-top: 50px;
-  margin-bottom: 120px;
+.row2 {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 80px 120px;
 }
 
-.unsubscribe {
-  color: #fff;
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 500;
-  background: #070211;
-  border: none;
-  cursor: pointer;
-  transition: 0.5s all ease-in-out;
-  margin-top: 50px;
-  margin-bottom: 120px;
-  align-items: center;
-}
-.unsubscribe:hover {
-  color: rgb(203, 141, 141);
-  transform: scale(1.5);
-}
-.footer-right {
-  margin-top: 50px;
-  margin-bottom: 120px;
+.rights {
   color: #fff;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
-  line-height: 40px;
 }
-.fa-solid {
+.Unsubscribe {
   color: #fff;
-  margin-right: 10px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.Unsubscribe:hover {
+  color: rgb(232, 5, 5);
+  transform: scale(0.5);
 }
